@@ -1,0 +1,38 @@
+
+*::-moz-selection {
+    background-color: #3d6983; color: #fff;;
+}
+*::selection {
+    background-color: #3d6983; color: #fff;;
+}
+
+.call { color: #3d6983; }
+
+.signup { background: transparent url(../../images/style_blue/signup-box.png) no-repeat; }
+
+.searchDiv .submit { 
+	background:url(../../images/style_blue/button.png) no-repeat; 
+	color: #42718e;
+	font-family: "Helvetica Neue";
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.searchDiv .submit:hover { 
+	background:url(../../images/style_blue/button-hover.png) no-repeat;
+}
+
+.callto { background: transparent url(../../images/style_blue/callto.png) no-repeat; }
+.callto:hover { background: transparent url(../../images/style_blue/callto-hover.png) no-repeat; }
+
+#toTopHover {
+	background:url(../../images/style_blue/ui.totop-hover.png) no-repeat;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}

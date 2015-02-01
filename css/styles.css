@@ -1,0 +1,56 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+
+@font-face {
+	font-family: 'Kaushan Script';
+	src: url('KaushanScript-Regular.ttf');
+}
+
+
+@font-face {
+	font-family: 'Clumsy';
+	src: url('clumsy-webfont.ttf');
+}
+
+
+/* Presentation Styles - Nor related to the plugin */
+
+body {
+	font-size: 12px;
+	font-family: Arial, Helevtica, Verdana, san-serif;
+	color: #333;
+	background-color:#800080;
+	text-align:center;
+}
+
+#content {
+	width:960px;
+	margin: 0 auto;
+	text-align:left;
+}
+
+#content h1{
+	text-align:center;	
+	font-family: 'Shadows Into Light', cursive;
+	font-size:55px;
+	text-shadow:1px 1px #fff;
+}
+
+#content h2{
+	text-align:center;	
+	font-family: 'Kaushan Script';
+	font-size:30px;
+	text-shadow:1px 1px #fff;
+}
+
+#content h3{
+	text-align:center;	
+	font-family: 'Clumsy';
+	font-size:30px;
+	text-shadow:1px 1px #fff;
+}
+
+#socialTimeline {
+	margin: 0 auto;	
+}

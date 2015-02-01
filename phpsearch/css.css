@@ -1,0 +1,119 @@
+/* CSS Document */
+.searchBtn
+	{
+		float:left;cursor:pointer;width:44px;height:38px;line-height:15px;
+		background-image:url(search_ico.PNG);
+		background-position:left 0;
+		background-repeat:no-repeat;
+	}
+
+.searchProgress
+	{
+		background-image:url(4.gif);background-position:left 0;
+		float:left;cursor:pointer;width:44px;height:38px;line-height:15px;
+		background-repeat:no-repeat;
+	}
+
+.textBox input 
+	{
+		color:#999999;
+		font:bold 14px arial;
+		float:left;
+		height:20px;
+		padding:12px 0 0 9px;
+		vertical-align:middle;
+		width:432px;
+	}
+
+#content{
+		height:400px;
+		text-align: center;
+		text-decoration: none;
+		width: 490px;
+        }
+		
+#content #sub_cont{
+	width: 490px;
+	display:none;
+	height:400px;
+}
+#content .no-rec{
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:5px;
+	border-bottom:solid #669900;
+	text-align:center;
+	background:#CCCC66;
+}
+#content .each_rec{
+
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:5px;
+	border-bottom:solid #669900;
+	text-align:justify;
+	background:#CCCC66;
+}
+
+#content .each_rec:hover{
+	background:#FFFFFF;
+}
+#content .each_rec a{
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-decoration:none
+}		
+.search-background {
+		display: none;
+		font-size: 13px;
+		font-weight: bold;
+		height:160px;
+		position: absolute;
+		padding-top:100px;
+		text-align: center;
+		text-decoration: none;
+		width: 470px;
+	}
+
+#heading
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:56px;
+	color:#CC0000;				
+}
+ body{
+	text-align:center;
+	font-family:Arial, Sans-Serif;
+	font-size:0.75em;
+}
+
+
+search-background label
+{	
+	border:solid #66FF00 1px;
+}	
+
+#paging_button ul{ width: 600px; padding:0px; margin:8px;}
+
+#paging_button ul li{
+		-moz-border-radius: 6px; 
+		-webkit-border-radius: 6px;
+		-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+		float:left; height:20px; width:20px; list-style-image:none; 
+		list-style-type:none; font-weight:bold; border:solid #CCCCCC 1px;
+		margin:3px; cursor:pointer;
+	}
+
+li:hover{ color: #CC0000; cursor: pointer; }
+
+
+
+
+
+
+
+
